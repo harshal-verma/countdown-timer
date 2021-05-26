@@ -12,4 +12,28 @@ body{
     height: 100vh;
     margin: 0;
     font-family: 'Ubuntu Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+h1{
+    font-size: 4rem;
+}
+
+.countdown-container{
+    display: flex; 
+}
+
+.countdown-container--big-text{
+    font-size: 6rem;
+}
+
+span{
+    font-weight: bolder;
+    margin: 1rem;
+}
+
+
+
+
